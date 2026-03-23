@@ -1,0 +1,13 @@
+<svg width="900" height="1600" viewBox="0 0 900 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1600" fill="#090C12"/>
+  <circle cx="210" cy="290" r="260" fill="#84D6B8" fill-opacity="0.28"/>
+  <circle cx="690" cy="460" r="230" fill="#F2D45F" fill-opacity="0.18"/>
+  <rect x="96" y="164" width="708" height="1260" rx="48" fill="#0F1520" stroke="rgba(255,255,255,0.12)"/>
+  <text x="120" y="250" fill="#84D6B8" font-size="34" font-family="Arial" letter-spacing="8">FRESHNAP</text>
+  <text x="120" y="340" fill="#F7F8FA" font-size="82" font-family="Arial" font-weight="700">Post-meal</text>
+  <text x="120" y="430" fill="#F7F8FA" font-size="82" font-family="Arial" font-weight="700">experience</text>
+  <text x="120" y="560" fill="#A3AFC4" font-size="34" font-family="Arial">Toallitas húmedas individuales</text>
+  <text x="120" y="610" fill="#A3AFC4" font-size="34" font-family="Arial">Branding directo para restaurantes</text>
+  <rect x="120" y="700" width="220" height="62" rx="31" fill="#84D6B8"/>
+  <text x="170" y="742" fill="#081018" font-size="28" font-family="Arial" font-weight="700">B2B</text>
+</svg>

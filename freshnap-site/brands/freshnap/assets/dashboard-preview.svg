@@ -1,0 +1,23 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0A0E15"/>
+  <rect x="40" y="40" width="1360" height="820" rx="28" fill="#0F1520" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="90" y="100" width="280" height="150" rx="20" fill="#141C28"/>
+  <rect x="400" y="100" width="280" height="150" rx="20" fill="#141C28"/>
+  <rect x="710" y="100" width="280" height="150" rx="20" fill="#141C28"/>
+  <rect x="1020" y="100" width="280" height="150" rx="20" fill="#141C28"/>
+  <rect x="90" y="300" width="840" height="460" rx="24" fill="#141C28"/>
+  <rect x="970" y="300" width="330" height="460" rx="24" fill="#141C28"/>
+  <path d="M140 650C260 590 310 610 400 500C480 402 580 450 660 330C710 255 800 260 880 200" stroke="#84D6B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 700C250 680 320 640 410 610C520 570 600 540 710 490C790 455 840 420 900 390" stroke="#F2D45F" stroke-width="10" stroke-linecap="round"/>
+  <rect x="1030" y="340" width="240" height="90" rx="18" fill="#0D1119"/>
+  <rect x="1030" y="460" width="240" height="90" rx="18" fill="#0D1119"/>
+  <rect x="1030" y="580" width="240" height="90" rx="18" fill="#0D1119"/>
+  <text x="118" y="175" fill="#84D6B8" font-size="26" font-family="Arial">ACTIVE ACCOUNTS</text>
+  <text x="118" y="220" fill="#F7F8FA" font-size="54" font-family="Arial" font-weight="700">150</text>
+  <text x="428" y="175" fill="#84D6B8" font-size="26" font-family="Arial">MONTHLY UNITS</text>
+  <text x="428" y="220" fill="#F7F8FA" font-size="54" font-family="Arial" font-weight="700">320K</text>
+  <text x="738" y="175" fill="#84D6B8" font-size="26" font-family="Arial">REORDER RATE</text>
+  <text x="738" y="220" fill="#F7F8FA" font-size="54" font-family="Arial" font-weight="700">88%</text>
+  <text x="1048" y="175" fill="#84D6B8" font-size="26" font-family="Arial">PLANS</text>
+  <text x="1048" y="220" fill="#F7F8FA" font-size="54" font-family="Arial" font-weight="700">3</text>
+</svg>

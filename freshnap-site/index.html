@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pitch Decks Interactivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared/css/base.css" />
+  <style>
+    body { background: radial-gradient(circle at top, #141b2d 0%, #090b11 55%, #05060a 100%); }
+    .landing { min-height: 100vh; display: grid; place-items: center; padding: 4rem 1.25rem; }
+    .landing__wrap { width: min(1120px, 100%); }
+    .landing__eyebrow { color: var(--color-accent); text-transform: uppercase; letter-spacing: .2em; font-size: .8rem; }
+    .landing h1 { font-size: clamp(2.4rem, 6vw, 5rem); line-height: .95; margin: 1rem 0; max-width: 11ch; }
+    .landing p { color: var(--color-muted); max-width: 62ch; }
+    .deck-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
+    .deck-card { display: grid; gap: 1rem; padding: 1.35rem; text-decoration: none; color: inherit; background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); border-radius: 24px; transition: transform .3s ease, border-color .3s ease, background .3s ease; }
+    .deck-card:hover { transform: translateY(-8px); border-color: rgba(255,255,255,.22); background: rgba(255,255,255,.05); }
+    .deck-card__thumb { aspect-ratio: 16/10; border-radius: 18px; background: linear-gradient(135deg, rgba(255,255,255,.08), rgba(255,255,255,.02)), radial-gradient(circle at 20% 20%, rgba(73,191,164,.32), transparent 35%), radial-gradient(circle at 80% 20%, rgba(242,196,58,.24), transparent 28%), #0f1320; border: 1px solid rgba(255,255,255,.08); position: relative; overflow: hidden; }
+    .deck-card__thumb::after { content: "FreshNap"; position: absolute; inset: auto 1rem 1rem auto; font-weight: 800; font-size: 1.25rem; color: #fff; }
+    .deck-card small { color: var(--color-muted); }
+  </style>
+</head>
+<body>
+  <main class="landing">
+    <div class="landing__wrap">
+      <span class="landing__eyebrow">Interactive pitch deck library</span>
+      <h1>Presentaciones web con scroll inmersivo.</h1>
+      <p>Un único sitio estático para alojar múltiples decks interactivos. Cada presentación vive en su propia carpeta con tema, lógica y datos desacoplados.</p>
+
+      <section class="deck-grid" aria-label="Presentaciones disponibles">
+        <a class="deck-card" href="/brands/freshnap/">
+          <div class="deck-card__thumb" aria-hidden="true"></div>
+          <div>
+            <h2>FreshNap</h2>
+            <small>Startup de experiencia post-comida para restaurantes</small>
+          </div>
+          <p>Toallitas húmedas personalizadas, branding directo y mejora tangible de la experiencia del cliente.</p>
+        </a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "brand": {
+    "name": "FreshNap",
+    "tagline": "La experiencia post-comida que los restaurantes no están aprovechando.",
+    "vision": "Convertirse en el estándar de experiencia post-comida en restaurantes de Latinoamérica."
+  },
+  "hero": {
+    "title": "FreshNap",
+    "subtitle": "Soluciones de higiene y experiencia para restaurantes mediante toallitas húmedas personalizadas y productos complementarios.",
+    "chips": ["B2B para restaurantes", "Branding directo", "Ingresos recurrentes"]
+  },
+  "problemFoods": ["Hamburguesas", "Tacos", "Pizza", "Pollo frito", "Sushi"],
+  "tabs": [
+    {
+      "label": "Touchpoint olvidado",
+      "title": "Después de comer también se construye la marca.",
+      "text": "El momento final de una comida es un touchpoint olvidado. Cuando el cliente termina, queda la grasa, el olor y la incomodidad. Ahí existe una oportunidad real de sorprender y diferenciarse.",
+      "bullets": [
+        "Las servilletas secas no resuelven grasa ni olor.",
+        "La experiencia termina justo en el momento más incómodo.",
+        "Ese instante puede convertirse en branding memorable."
+      ]
+    },
+    {
+      "label": "Producto",
+      "title": "Una solución simple, higiénica y personalizable.",
+      "text": "FreshNap entrega toallitas húmedas individuales listas para restaurantes, con personalización por marca y variantes según el tipo de local y experiencia deseada.",
+      "bullets": [
+        "Toallitas individuales listas para entregar.",
+        "Logo del restaurante y QR en el empaque.",
+        "Versiones cítricas, antibacterial y kits."
+      ]
+    },
+    {
+      "label": "Valor para el restaurante",
+      "title": "Más experiencia, más diferenciación, más recordación.",
+      "text": "El producto es de bajo costo por cliente, pero alto impacto en percepción. Mejora la experiencia, proyecta orden e higiene, y convierte cada entrega en un punto de contacto de marca.",
+      "bullets": [
+        "Mejora visible de experiencia cliente.",
+        "Diferenciación frente a competidores.",
+        "Branding directo sin fricción."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "title": "Individual clásica",
+      "description": "Formato estándar para hamburgueserías, tacos y casual dining.",
+      "tag": "Base",
+      "video": "classic-loop.mp4"
+    },
+    {
+      "title": "Personalizada con logo + QR",
+      "description": "Empaque con identidad del restaurante y CTA para menú, fidelización o RRSS.",
+      "tag": "Branding",
+      "video": "branding-loop.mp4"
+    },
+    {
+      "title": "Línea premium",
+      "description": "Opciones cítricas, antibacterial o mini kit complementario para tickets más altos.",
+      "tag": "Premium",
+      "video": "premium-loop.mp4"
+    }
+  ],
+  "kpis": [
+    { "value": 5, "suffix": "x", "label": "categorías de comida con alto fit", "detail": "Hamburguesas, tacos, pizza, pollo y sushi" },
+    { "value": 3, "label": "planes comerciales", "detail": "Básico, Personalizado, Premium" },
+    { "value": 1, "suffix": " touchpoint", "label": "olvidado convertido en ventaja", "detail": "Post-comida" },
+    { "value": 100, "suffix": "%", "label": "estático y listo para Vercel", "detail": "Sin build step" }
+  ],
+  "chart": {
+    "labels": ["Mes 1", "Mes 3", "Mes 6", "Mes 9", "Mes 12"],
+    "restaurants": [8, 22, 50, 95, 150],
+    "units": [12000, 38000, 92000, 180000, 320000]
+  },
+  "market": [
+    "Hamburgueserías",
+    "Tacos / comida mexicana",
+    "Sushi",
+    "Pollo frito",
+    "Restaurantes casuales"
+  ],
+  "plans": [
+    { "name": "Básico", "price": "Precio por unidad", "desc": "Toallita estándar individual para operación simple." },
+    { "name": "Personalizado", "price": "Mayor ticket", "desc": "Logo + QR + identidad visual del restaurante." },
+    { "name": "Premium", "price": "Margen superior", "desc": "Aromas cítricos, antibacterial o kits complementarios." }
+  ],
+  "closing": {
+    "quote": "No vendemos toallitas. Mejoramos la experiencia del cliente en cada comida.",
+    "support": "FreshNap busca convertirse en el estándar de experiencia post-comida para restaurantes en Latinoamérica."
+  }
+}

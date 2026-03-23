@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshNap — Pitch Deck Interactivo</title>
+  <meta name="description" content="Presentación interactiva de FreshNap, startup de experiencia post-comida para restaurantes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared/css/base.css" />
+  <link rel="stylesheet" href="/brands/freshnap/css/theme.css" />
+</head>
+<body class="brand-freshnap">
+  <div class="progress-bar" aria-hidden="true"><div class="progress-bar__fill" data-progress-fill></div></div>
+
+  <header class="brand-nav">
+    <a class="logo-lockup" href="/">
+      <img src="/brands/freshnap/assets/logo-freshnap.svg" alt="FreshNap" />
+      <span>FreshNap</span>
+    </a>
+    <nav class="brand-nav__links">
+      <a href="#problema">Problema</a>
+      <a href="#solucion">Solución</a>
+      <a href="#producto">Producto</a>
+      <a href="#numeros">Números</a>
+      <a href="#crecimiento">Crecimiento</a>
+      <a href="#cierre">Cierre</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section class="section" id="hero">
+      <div class="hero-orb"></div>
+      <div class="container center-stage">
+        <span class="section__eyebrow fade-block">Experiencia post-comida para restaurantes</span>
+        <h1 class="hero-title fade-block" data-hero-title>FreshNap</h1>
+        <p class="hero-subtitle fade-block" data-hero-subtitle></p>
+        <div class="hero-metrics fade-block" data-hero-chips></div>
+        <div class="cta-row fade-block">
+          <a class="button" href="#problema">Ver pitch</a>
+          <a class="button button--ghost" href="/">Volver al menú</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problema">
+      <div class="container grid-2">
+        <div>
+          <span class="section__eyebrow fade-block">Problema</span>
+          <h2 class="section__title fade-block">Comer con las manos sigue siendo incómodo al final.</h2>
+          <p class="section__lead fade-block">Hamburguesas, tacos, pizza, pollo frito y sushi generan grasa, olor e incomodidad. La servilleta seca no resuelve el problema y el restaurante pierde una oportunidad concreta de mejorar la experiencia del cliente.</p>
+          <div class="problem-strip fade-block" data-problem-foods></div>
+        </div>
+        <div class="card fade-block">
+          <h3>Insight clave</h3>
+          <p>El momento después de comer es un <strong>touchpoint olvidado</strong>. Justo cuando la experiencia podría terminar mal, FreshNap permite cerrar con una sensación de limpieza, cuidado y marca.</p>
+          <ul class="bullet-list">
+            <li>La limpieza post-comida hoy está subatendida.</li>
+            <li>Ese momento concentra una fricción real para el cliente.</li>
+            <li>Resolverlo crea diferenciación visible a bajo costo.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solucion">
+      <div class="container solution-layout">
+        <div>
+          <div class="tabs-sticky" data-tabs-nav></div>
+          <div class="tab-panels" data-tabs-panels></div>
+        </div>
+        <div class="mockup-stack">
+          <div class="phone fade-block">
+            <div class="phone__screen">
+              <video muted loop playsinline preload="auto" data-autoplay poster="/brands/freshnap/assets/poster-phone.svg">
+                <source src="/brands/freshnap/assets/classic-loop.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="laptop fade-block">
+            <div class="laptop__screen">
+              <div class="laptop__screen-inner">
+                <img src="/brands/freshnap/assets/dashboard-preview.svg" alt="Vista conceptual del dashboard de FreshNap" />
+              </div>
+            </div>
+            <div class="laptop__base"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="producto">
+      <div class="container">
+        <span class="section__eyebrow fade-block">Producto</span>
+        <h2 class="section__title fade-block">Una línea simple de implementar y fácil de escalar.</h2>
+        <p class="section__lead fade-block">FreshNap parte con toallitas húmedas individuales, pero abre la puerta a personalización, kits y líneas premium según el tipo de restaurante y ticket promedio.</p>
+        <div class="cards-grid" data-product-grid></div>
+      </div>
+    </section>
+
+    <section class="section" id="modelo">
+      <div class="container grid-2">
+        <div>
+          <span class="section__eyebrow fade-block">Modelo de negocio</span>
+          <h2 class="section__title fade-block">Venta B2B con recurrencia mensual.</h2>
+          <p class="section__lead fade-block">El modelo combina precio por unidad con contratos mensuales y planes según nivel de personalización. Esto permite escalar por volumen, elevar ticket con branding y capturar márgenes mayores con líneas premium.</p>
+          <div class="plan-grid" data-plans></div>
+        </div>
+        <div class="card fade-block">
+          <h3>Mercado objetivo inicial</h3>
+          <p>FreshNap entra donde la fricción de comer con las manos es más evidente y donde la experiencia importa para fidelizar.</p>
+          <div class="market-list" data-market></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="numeros">
+      <div class="container">
+        <span class="section__eyebrow fade-block">Números clave</span>
+        <h2 class="section__title fade-block">Bajo costo unitario. Alto impacto percibido.</h2>
+        <div class="kpi-grid" data-kpis></div>
+      </div>
+    </section>
+
+    <section class="section" id="crecimiento">
+      <div class="container">
+        <span class="section__eyebrow fade-block">Tracción proyectada</span>
+        <h2 class="section__title fade-block">Crecimiento por recurrencia + expansión de cuentas.</h2>
+        <p class="section__lead fade-block">El negocio crece con restaurantes activos, reposición mensual y upsell a personalización y premium. El gráfico se activa al entrar en escena.</p>
+        <div class="chart-wrap fade-block">
+          <canvas id="growthChart" aria-label="Gráfico de crecimiento proyectado FreshNap"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cierre">
+      <div class="container center-stage">
+        <div class="logo-lockup fade-block" data-closing-logo>
+          <img src="/brands/freshnap/assets/logo-freshnap.svg" alt="FreshNap" />
+          <span>FreshNap</span>
+        </div>
+        <blockquote class="closing-quote fade-block" data-closing-quote></blockquote>
+        <p class="hero-subtitle fade-block" data-closing-support></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="/shared/js/core.js"></script>
+  <script src="/brands/freshnap/js/main.js"></script>
+</body>
+</html>
